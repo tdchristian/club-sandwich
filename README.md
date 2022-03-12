@@ -31,7 +31,7 @@ There are many additional features that turned out to be necessary in our use ca
 * Merge multiple clubs into one, or split one club into multiple  based on grade, gender, or hand-picked names.
 * Pre-select students for a given club (such as Choir). Choose whether this is the exhaustive list or if it's still open to others.
 * Enforce whitelists, blacklists, and mutual exclusions between clubs.
-* Tracking teachers and avoiding over-scheduling them on the same day.
+* Keep track of teachers and avoiding over-scheduling them on the same day.
 * Offer multiple scheduling options to be compared by humans.
 * Show statistics on each option (students receiving their choices, club membership, grade and gender balancing, and more).
 * Validate all options to ensure there are no conflicts.
@@ -69,7 +69,6 @@ For the remaining clubs, calculate their "repulsion factor".
 <br><br>It's weighted by the student's preference, so repulsion is stronger between first and second choice picks than between first and fifth choice picks (because they will probably not need to be in both of those anyway).
 </details>
 
-<br>
 Order the clubs so that those with the highest repulsion factors come first.
 
 For each club, place it on the day with the lowest repulsion factor that will therefore create the fewest conflicts.
@@ -109,7 +108,7 @@ In order to make this all run, some input is needed. Detailed formats are specif
 
 * A student survey file. This lists students along with their top 5 choices.
 * A master student file. This lists students' full names along with their grade, gender, attendance status, and any days they are unavailable.
-   * A tool called `prepare_linkups.py` is provided compares the master student file and the student survey file and outputs a linkups file. Since it may be impossible to link up all students (e.g. they gave a different name on the survey), it also creates a consumable file that must be examined by hand to reconcile any differences.
+   * A tool called `prepare_linkups.py` is provided that compares the master student file and the student survey file and outputs a linkups file. Since it may be impossible to link up all students (e.g. they gave a different name on the survey), it also creates a consumable file that must be examined by hand to reconcile any differences.
 * A clubs file. This lists clubs, along with their teacher; which days they can run; lower and upper limits on membership; how many groups can or must be run; grade and gender restrictions; and whether the club has open or closed membership.
 
 In addition, these files can optionally be supplied:
