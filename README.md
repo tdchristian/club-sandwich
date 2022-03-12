@@ -4,7 +4,7 @@
 
 Last updated `2022-03-12`.
 
-# Overview
+## Overview
 
 This tool tries to solve two headaches in scheduling:
 
@@ -19,7 +19,7 @@ This tool does just that. It aims to give every student as many of their choices
 * teachers, showing which clubs they teach
 * days, showing which clubs are run in parallel
 
-## Additional features
+### Additional features
 
 There are many additional features that turned out to be necessary in our use case, including:
 
@@ -36,7 +36,7 @@ There are many additional features that turned out to be necessary in our use ca
 * Show statistics on each option (students receiving their choices, club membership, grade and gender balancing, and more).
 * Validate all options to ensure there are no conflicts.
 
-# The algorithm
+## The algorithm
 
 In broad strokes, the scheduling algorithm goes like this:
 
@@ -103,7 +103,7 @@ A score is then derived from these statistics. The top 1 or more options (as cho
 
 After all possibilities have been tried, the top ones are saved in five views, as noted above, and are also stored in a format that can be reopened and manually tweaked and have all its views re-output later.
 
-# Input needed
+## Input needed
 
 In order to make this all run, some input is needed. Detailed formats are specified in `input/_input_specifications.csv`, but here's the overview:
 
@@ -124,7 +124,7 @@ In addition, these files can optionally be supplied:
 
 Merges, splits, and nice name files in particular are used for adjusting the offerings after the survey results are known.
 
-# Workflow
+## Workflow
 
 Given the above, here are the steps you would ideally carry out to use the tool:
 
@@ -139,15 +139,15 @@ Given the above, here are the steps you would ideally carry out to use the tool:
 4. (Optionally, but for better results) Run in process votes only mode and review the filtered vote data. Decide which clubs will not be run based on lack of interest. Decide other scheduling info for the others: minimum and maximum groups or set a specific number, how many days each group should meet, and whether you need to limit how many of the group can run per day (e.g. they need a specific room or equipment).
 5. Run the main mode and review the different views of the outcome, in particular the club and student views for data entry or importing.
 
-# Future plans
+## Future plans
 
-## Technical design fixes
+### Technical design fixes
 
 * Splits are currently handled as separate clubs. It would solve some problems if they were instead handled within an individual club, e.g. as named instances, or as 'branches'. In particular this would allow a choice for a club to be treated as one choice, with the club handling the split, rather than the school having to determine which split a student goes into (and, if they are eligible for more than one branch, either having to choose randomly or use up more than one choice). It would also unify the problem of split names filling the same role as instance keys (visible in 'Cosmetology 1 A' and 'Cosmetology 2 A', for instance).
 * Student names are currently case-insensitive when preparing linkups, but case-sensitive during processing, resulting in potential errors.
 * Numerous `TODO` items in the codebase.
 
-## New and improved features
+### New and improved features
 
 * Add a teachers.csv input file with the teacher's name, maximum days they're available, and specific days they're available.
 * Right now, all merges happen before all splits. It would be good to have a protocol whereby they could be carried out in a predefined sequence. For example, you might want to split a club into A and B; merge B with C; and then split C into D and E. This is currently impossible.
@@ -157,7 +157,7 @@ Given the above, here are the steps you would ideally carry out to use the tool:
 * Update the text interface to allow choosing the constants for create_schedule (n worlds, n student configurations, n best to keep).
 * Pluralize teachers per club (including n_teachers_needed to determine whether all need to be engaged or others are free!), and, in preparation for course scheduling, number of clubs per day for a teacher, rather than just whether a day is used.
 
-## Course scheduling
+### Course scheduling
 
 One idea that came up during development was whether the program could be used for general course scheduling in the future.
 
@@ -184,7 +184,7 @@ In addition, the human factor of ensuring that class compositions make sense (wh
 
 I remain on the fence as to whether the effort required to adapt this tool for course scheduling would result in better schedules than are currently crafted with intention. I would need to understand the decision process and logistical process of course scheduling in more depth before knowing how much we can meaningfully represent in code.
 
-# Development notes
+## Development notes
 
 When first approached to create an algorithm to put students into clubs, I assumed it would be a couple hours' work. I was only envisioning one of the last steps of the algorithm, and simplified at that: go through the students, place them in their first choice; reverse order, place them in their second choice; and so on. Then I had the idea of also randomizing club placements to days and trying each option, which I also thought would take a couple hours at most.
 
@@ -227,7 +227,7 @@ The codebase as it stands is about **1,900 lines of code** and **1,200 lines of 
 
 I did not track my hours but they can be estimated by counting the time between git commits (i.e., check-ins of code into the version control system). This might overshoot the reality by counting times I was up from my computer during a work session, so I've limited them to commits within 1 hour of each other. Also, it might undershoot the reality by not counting the time between sitting down and the first commit of a work session. The total time based on this calculation is **45 hours**.
 
-# Credits
+## Credits
 
 Created by [Luke Sawczak](https://sawczak.com) for [TDChristian](https://tdchristian.ca), December 2021 – March 2022.
 
