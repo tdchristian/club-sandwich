@@ -104,7 +104,7 @@ After all possibilities have been tried, the top ones are saved in five views, a
 
 ## Input needed
 
-In order to make this all run, some input is needed. Detailed formats are specified in `input/_input_specifications.csv`, but here's the overview:
+In order to make this all run, some input is needed. Detailed formats are specified in `input/_input_specifications.csv` and can also be printed within the program, but here's the overview:
 
 * A student survey file. This lists students along with their top 5 choices.
 * A master student file. This lists students' full names along with their grade, gender, attendance status, and any days they are unavailable.
