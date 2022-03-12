@@ -1,0 +1,36 @@
+5 clubs
+15 assignments
+15 dupes
+
+[13, 14, 16, 17, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+
+1      : AB | CD | E 
+2      : AB | CE | D 
+3      : AB | DE | C 
+4      : AC | BD | E 
+5      : AC | BE | D 
+6      : AC | DE | B 
+7      : AD | BC | E 
+8      : AD | BE | C 
+9      : AD | CE | B 
+10     : AE | BC | D 
+11     : AE | BD | C 
+12     : AE | CD | B 
+13     : BC | AD | E X
+14     : BC | AE | D X
+15     : BC | DE | A 
+16     : BD | AC | E X
+17     : BD | AE | C X
+18     : BD | CE | A 
+19     : BE | AC | D X
+20     : BE | AD | C X
+21     : BE | CD | A 
+22     : CD | AB | E X
+23     : CD | AE | B X
+24     : CD | BE | A X
+25     : CE | AB | D X
+26     : CE | AD | B X
+27     : CE | BD | A X
+28     : DE | AB | C X
+29     : DE | AC | B X
+30     : DE | BC | A X

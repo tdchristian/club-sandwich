@@ -1,0 +1,216 @@
+7 clubs
+105 assignments
+105 dupes
+
+[4, 5, 6, 10, 11, 12, 16, 17, 18, 22, 23, 24, 28, 29, 30, 34, 35, 36, 40, 41, 42, 46, 47, 48, 52, 53, 54, 58, 59, 60, 64, 65, 66, 70, 71, 72, 76, 77, 78, 82, 83, 84, 88, 89, 90, 94, 95, 96, 100, 101, 102, 106, 107, 108, 112, 113, 114, 118, 119, 120, 124, 125, 126, 130, 131, 132, 136, 137, 138, 142, 143, 144, 148, 149, 150, 154, 155, 156, 160, 161, 162, 166, 167, 168, 172, 173, 174, 178, 179, 180, 184, 185, 186, 190, 191, 192, 196, 197, 198, 202, 203, 204, 208, 209, 210]
+
+1      : ABC | DE | FG 
+2      : ABC | DF | EG 
+3      : ABC | DG | EF 
+4      : ABC | EF | DG X
+5      : ABC | EG | DF X
+6      : ABC | FG | DE X
+7      : ABD | CE | FG 
+8      : ABD | CF | EG 
+9      : ABD | CG | EF 
+10     : ABD | EF | CG X
+11     : ABD | EG | CF X
+12     : ABD | FG | CE X
+13     : ABE | CD | FG 
+14     : ABE | CF | DG 
+15     : ABE | CG | DF 
+16     : ABE | DF | CG X
+17     : ABE | DG | CF X
+18     : ABE | FG | CD X
+19     : ABF | CD | EG 
+20     : ABF | CE | DG 
+21     : ABF | CG | DE 
+22     : ABF | DE | CG X
+23     : ABF | DG | CE X
+24     : ABF | EG | CD X
+25     : ABG | CD | EF 
+26     : ABG | CE | DF 
+27     : ABG | CF | DE 
+28     : ABG | DE | CF X
+29     : ABG | DF | CE X
+30     : ABG | EF | CD X
+31     : ACD | BE | FG 
+32     : ACD | BF | EG 
+33     : ACD | BG | EF 
+34     : ACD | EF | BG X
+35     : ACD | EG | BF X
+36     : ACD | FG | BE X
+37     : ACE | BD | FG 
+38     : ACE | BF | DG 
+39     : ACE | BG | DF 
+40     : ACE | DF | BG X
+41     : ACE | DG | BF X
+42     : ACE | FG | BD X
+43     : ACF | BD | EG 
+44     : ACF | BE | DG 
+45     : ACF | BG | DE 
+46     : ACF | DE | BG X
+47     : ACF | DG | BE X
+48     : ACF | EG | BD X
+49     : ACG | BD | EF 
+50     : ACG | BE | DF 
+51     : ACG | BF | DE 
+52     : ACG | DE | BF X
+53     : ACG | DF | BE X
+54     : ACG | EF | BD X
+55     : ADE | BC | FG 
+56     : ADE | BF | CG 
+57     : ADE | BG | CF 
+58     : ADE | CF | BG X
+59     : ADE | CG | BF X
+60     : ADE | FG | BC X
+61     : ADF | BC | EG 
+62     : ADF | BE | CG 
+63     : ADF | BG | CE 
+64     : ADF | CE | BG X
+65     : ADF | CG | BE X
+66     : ADF | EG | BC X
+67     : ADG | BC | EF 
+68     : ADG | BE | CF 
+69     : ADG | BF | CE 
+70     : ADG | CE | BF X
+71     : ADG | CF | BE X
+72     : ADG | EF | BC X
+73     : AEF | BC | DG 
+74     : AEF | BD | CG 
+75     : AEF | BG | CD 
+76     : AEF | CD | BG X
+77     : AEF | CG | BD X
+78     : AEF | DG | BC X
+79     : AEG | BC | DF 
+80     : AEG | BD | CF 
+81     : AEG | BF | CD 
+82     : AEG | CD | BF X
+83     : AEG | CF | BD X
+84     : AEG | DF | BC X
+85     : AFG | BC | DE 
+86     : AFG | BD | CE 
+87     : AFG | BE | CD 
+88     : AFG | CD | BE X
+89     : AFG | CE | BD X
+90     : AFG | DE | BC X
+91     : BCD | AE | FG 
+92     : BCD | AF | EG 
+93     : BCD | AG | EF 
+94     : BCD | EF | AG X
+95     : BCD | EG | AF X
+96     : BCD | FG | AE X
+97     : BCE | AD | FG 
+98     : BCE | AF | DG 
+99     : BCE | AG | DF 
+100    : BCE | DF | AG X
+101    : BCE | DG | AF X
+102    : BCE | FG | AD X
+103    : BCF | AD | EG 
+104    : BCF | AE | DG 
+105    : BCF | AG | DE 
+106    : BCF | DE | AG X
+107    : BCF | DG | AE X
+108    : BCF | EG | AD X
+109    : BCG | AD | EF 
+110    : BCG | AE | DF 
+111    : BCG | AF | DE 
+112    : BCG | DE | AF X
+113    : BCG | DF | AE X
+114    : BCG | EF | AD X
+115    : BDE | AC | FG 
+116    : BDE | AF | CG 
+117    : BDE | AG | CF 
+118    : BDE | CF | AG X
+119    : BDE | CG | AF X
+120    : BDE | FG | AC X
+121    : BDF | AC | EG 
+122    : BDF | AE | CG 
+123    : BDF | AG | CE 
+124    : BDF | CE | AG X
+125    : BDF | CG | AE X
+126    : BDF | EG | AC X
+127    : BDG | AC | EF 
+128    : BDG | AE | CF 
+129    : BDG | AF | CE 
+130    : BDG | CE | AF X
+131    : BDG | CF | AE X
+132    : BDG | EF | AC X
+133    : BEF | AC | DG 
+134    : BEF | AD | CG 
+135    : BEF | AG | CD 
+136    : BEF | CD | AG X
+137    : BEF | CG | AD X
+138    : BEF | DG | AC X
+139    : BEG | AC | DF 
+140    : BEG | AD | CF 
+141    : BEG | AF | CD 
+142    : BEG | CD | AF X
+143    : BEG | CF | AD X
+144    : BEG | DF | AC X
+145    : BFG | AC | DE 
+146    : BFG | AD | CE 
+147    : BFG | AE | CD 
+148    : BFG | CD | AE X
+149    : BFG | CE | AD X
+150    : BFG | DE | AC X
+151    : CDE | AB | FG 
+152    : CDE | AF | BG 
+153    : CDE | AG | BF 
+154    : CDE | BF | AG X
+155    : CDE | BG | AF X
+156    : CDE | FG | AB X
+157    : CDF | AB | EG 
+158    : CDF | AE | BG 
+159    : CDF | AG | BE 
+160    : CDF | BE | AG X
+161    : CDF | BG | AE X
+162    : CDF | EG | AB X
+163    : CDG | AB | EF 
+164    : CDG | AE | BF 
+165    : CDG | AF | BE 
+166    : CDG | BE | AF X
+167    : CDG | BF | AE X
+168    : CDG | EF | AB X
+169    : CEF | AB | DG 
+170    : CEF | AD | BG 
+171    : CEF | AG | BD 
+172    : CEF | BD | AG X
+173    : CEF | BG | AD X
+174    : CEF | DG | AB X
+175    : CEG | AB | DF 
+176    : CEG | AD | BF 
+177    : CEG | AF | BD 
+178    : CEG | BD | AF X
+179    : CEG | BF | AD X
+180    : CEG | DF | AB X
+181    : CFG | AB | DE 
+182    : CFG | AD | BE 
+183    : CFG | AE | BD 
+184    : CFG | BD | AE X
+185    : CFG | BE | AD X
+186    : CFG | DE | AB X
+187    : DEF | AB | CG 
+188    : DEF | AC | BG 
+189    : DEF | AG | BC 
+190    : DEF | BC | AG X
+191    : DEF | BG | AC X
+192    : DEF | CG | AB X
+193    : DEG | AB | CF 
+194    : DEG | AC | BF 
+195    : DEG | AF | BC 
+196    : DEG | BC | AF X
+197    : DEG | BF | AC X
+198    : DEG | CF | AB X
+199    : DFG | AB | CE 
+200    : DFG | AC | BE 
+201    : DFG | AE | BC 
+202    : DFG | BC | AE X
+203    : DFG | BE | AC X
+204    : DFG | CE | AB X
+205    : EFG | AB | CD 
+206    : EFG | AC | BD 
+207    : EFG | AD | BC 
+208    : EFG | BC | AD X
+209    : EFG | BD | AC X
+210    : EFG | CD | AB X

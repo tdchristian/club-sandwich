@@ -1,0 +1,9 @@
+4 clubs
+6 possible assignments
+
+AB | C | D
+AC | B | D
+AD | B | C
+BC | A | D
+BD | A | C
+CD | A | B

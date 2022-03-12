@@ -1,0 +1,18 @@
+5 clubs
+15 possible assignments
+
+AB | CD | E
+AB | CE | D
+AB | DE | C
+AC | BD | E
+AC | BE | D
+AC | DE | B
+AD | BC | E
+AD | BE | C
+AD | CE | B
+AE | BC | D
+AE | BD | C
+AE | CD | B
+BC | DE | A
+BD | CE | A
+BE | CD | A

@@ -1,0 +1,4 @@
+3 clubs
+1 possible assignments
+
+A | B | C

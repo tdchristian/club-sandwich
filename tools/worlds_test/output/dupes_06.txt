@@ -1,0 +1,96 @@
+6 clubs
+15 assignments
+75 dupes
+
+[4, 5, 6, 10, 11, 12, 16, 17, 18, 22, 23, 24, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+
+1      : AB | CD | EF 
+2      : AB | CE | DF 
+3      : AB | CF | DE 
+4      : AB | DE | CF X
+5      : AB | DF | CE X
+6      : AB | EF | CD X
+7      : AC | BD | EF 
+8      : AC | BE | DF 
+9      : AC | BF | DE 
+10     : AC | DE | BF X
+11     : AC | DF | BE X
+12     : AC | EF | BD X
+13     : AD | BC | EF 
+14     : AD | BE | CF 
+15     : AD | BF | CE 
+16     : AD | CE | BF X
+17     : AD | CF | BE X
+18     : AD | EF | BC X
+19     : AE | BC | DF 
+20     : AE | BD | CF 
+21     : AE | BF | CD 
+22     : AE | CD | BF X
+23     : AE | CF | BD X
+24     : AE | DF | BC X
+25     : AF | BC | DE 
+26     : AF | BD | CE 
+27     : AF | BE | CD 
+28     : AF | CD | BE X
+29     : AF | CE | BD X
+30     : AF | DE | BC X
+31     : BC | AD | EF X
+32     : BC | AE | DF X
+33     : BC | AF | DE X
+34     : BC | DE | AF X
+35     : BC | DF | AE X
+36     : BC | EF | AD X
+37     : BD | AC | EF X
+38     : BD | AE | CF X
+39     : BD | AF | CE X
+40     : BD | CE | AF X
+41     : BD | CF | AE X
+42     : BD | EF | AC X
+43     : BE | AC | DF X
+44     : BE | AD | CF X
+45     : BE | AF | CD X
+46     : BE | CD | AF X
+47     : BE | CF | AD X
+48     : BE | DF | AC X
+49     : BF | AC | DE X
+50     : BF | AD | CE X
+51     : BF | AE | CD X
+52     : BF | CD | AE X
+53     : BF | CE | AD X
+54     : BF | DE | AC X
+55     : CD | AB | EF X
+56     : CD | AE | BF X
+57     : CD | AF | BE X
+58     : CD | BE | AF X
+59     : CD | BF | AE X
+60     : CD | EF | AB X
+61     : CE | AB | DF X
+62     : CE | AD | BF X
+63     : CE | AF | BD X
+64     : CE | BD | AF X
+65     : CE | BF | AD X
+66     : CE | DF | AB X
+67     : CF | AB | DE X
+68     : CF | AD | BE X
+69     : CF | AE | BD X
+70     : CF | BD | AE X
+71     : CF | BE | AD X
+72     : CF | DE | AB X
+73     : DE | AB | CF X
+74     : DE | AC | BF X
+75     : DE | AF | BC X
+76     : DE | BC | AF X
+77     : DE | BF | AC X
+78     : DE | CF | AB X
+79     : DF | AB | CE X
+80     : DF | AC | BE X
+81     : DF | AE | BC X
+82     : DF | BC | AE X
+83     : DF | BE | AC X
+84     : DF | CE | AB X
+85     : EF | AB | CD X
+86     : EF | AC | BD X
+87     : EF | AD | BC X
+88     : EF | BC | AD X
+89     : EF | BD | AC X
+90     : EF | CD | AB X

@@ -1,0 +1,18 @@
+4 clubs
+6 assignments
+6 dupes
+
+[2, 4, 6, 8, 10, 12]
+
+1      : AB | C | D 
+2      : AB | D | C X
+3      : AC | B | D 
+4      : AC | D | B X
+5      : AD | B | C 
+6      : AD | C | B X
+7      : BC | A | D 
+8      : BC | D | A X
+9      : BD | A | C 
+10     : BD | C | A X
+11     : CD | A | B 
+12     : CD | B | A X
