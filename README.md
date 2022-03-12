@@ -151,7 +151,7 @@ Given the above, here are the steps you would ideally carry out to use the tool:
 * Add a teachers.csv input file with the teacher's name, maximum days they're available, and specific days they're available.
 * Right now, all merges happen before all splits. It would be good to have a protocol whereby they could be carried out in a predefined sequence. For example, you might want to split a club into A and B; merge B with C; and then split C into D and E. This is currently impossible.
 * Clubs that have too few votes to run are currently eliminated before distribution. A powerful feature would be to identify clubs that have too few *after* distribution, and reassign those students into other clubs that are themselves low but closer to the threshold of being able to run. In other words, cannibalize the least popular clubs so that other marginal ones can run.
-* Splitting after the fact, i.e. when intances are balanced. This came into play when we decided to turn the Study Halls into grade-based groups after generation.
+* Splitting after the fact, i.e. when groups are balanced. This came into play when we decided to turn the Study Halls into grade-based groups after generation.
 * A better, more generalized swap tool. (I have a highly manual-effort one that I used for the above Study Hall sorting.)
 * Update the text interface to allow choosing the constants for create_schedule (n worlds, n student configurations, n best to keep).
 * Pluralize teachers per club (including n_teachers_needed to determine whether all need to be engaged or others are free!), and, in preparation for course scheduling, number of clubs per day for a teacher, rather than just whether a day is used.
