@@ -130,7 +130,7 @@ def generate_worlds(school: School, clubs: list[Club], n_to_yield: int) -> Itera
     A world is a distribution of clubs (specifically, club instances) to days.
 
     N.B. The actual data yielded is only the number of worlds created so far.
-    The clubs are changed in-place by creating the distribted instances,
+    The clubs are changed in-place by creating the distributed instances,
     and MUST be reset before the iterator is advanced to function properly.
 
     Hence, a "phantom" representation is kept of the instances to be created
